@@ -281,42 +281,42 @@ cat $FILE_NAME | cut -f2,3 > $CUT_O | ktImportTaxonomy $CUT_O -o $CUT_O
 
 # References
 
-####1- Handelsman J1, Rondon MR, Brady SF, Clardy J, G. R. (1998). Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products.
+#### 1- Handelsman J1, Rondon MR, Brady SF, Clardy J, G. R. (1998). Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products.
 
-####2- Venter JC, et al. Environmental genome shotgun sequencing of the Sargasso Sea. Science 2004;304:66–74.
+#### 2- Venter JC, et al. Environmental genome shotgun sequencing of the Sargasso Sea. Science 2004;304:66–74.
 
-####3-Oulas et al. metagenomics: tools and insights for analyzing next-generation sequencing data derived from Biodiversity studies. Bioinformatics and Biology Insights 2015:9 75–88
+#### 3-Oulas et al. metagenomics: tools and insights for analyzing next-generation sequencing data derived from Biodiversity studies. Bioinformatics and Biology Insights 2015:9 75–88
 
-####4- Gourlé, H., Karlsson-Lindsjö, O., Hayer, J., & Bongcam-Rudloff, E. (2019). Simulating Illumina metagenomic data with InSilicoSeq. Bioinformatics, 35(3), 521–522.
+#### 4- Gourlé, H., Karlsson-Lindsjö, O., Hayer, J., & Bongcam-Rudloff, E. (2019). Simulating Illumina metagenomic data with InSilicoSeq. Bioinformatics, 35(3), 521–522.
 
-####5- Wood, D. E., & Salzberg, S. L. (2014). Kraken: ultrafast metagenomic sequence classification using exact alignments. Genome Biology, 15(3), R46.
+#### 5- Wood, D. E., & Salzberg, S. L. (2014). Kraken: ultrafast metagenomic sequence classification using exact alignments. Genome Biology, 15(3), R46.
 
-####7- Handelsman J, Tiedje J M, Alvarez-Cohen L et al. The New Science of Metagenomics: Revealing the Secrets of Our Mi- crobial Planet. The National Academies Press, 2007.
+#### 7- Handelsman J, Tiedje J M, Alvarez-Cohen L et al. The New Science of Metagenomics: Revealing the Secrets of Our Mi- crobial Planet. The National Academies Press, 2007.
 
-####   Ondov, B. D., Bergman, N. H., & Phillippy, A. M. (2011). Interactive metagenomic visualization in a Web browser. BMC Bioinformatics, 12(9). https://doi.org/10.1186/1471-2105-12-385
+#### 8- Ondov, B. D., Bergman, N. H., & Phillippy, A. M. (2011). Interactive metagenomic visualization in a Web browser. BMC Bioinformatics, 12(9). https://doi.org/10.1186/1471-2105-12-385
 
-####   Wickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-3-319-24277-4
+#### 9- Wickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-3-319-24277-4
 
-####8- Handelsman J, Tiedje J M, Alvarez-Cohen L et al. The New Science of Metagenomics: Revealing the Secrets of Our Mi- crobial Planet. The National Academies Press, 2007.
+#### 8- Handelsman J, Tiedje J M, Alvarez-Cohen L et al. The New Science of Metagenomics: Revealing the Secrets of Our Mi- crobial Planet. The National Academies Press, 2007.
 
-####9- Turnbaugh P J, Ley R E, Mahowald M A, Magrini V, Mardis E R, Gordon J I. An obesity-associated gut microbiome with increased capacity for energy harvest. Nature, 2006, 444(7122): 1027-1131.
+#### 9- Turnbaugh P J, Ley R E, Mahowald M A, Magrini V, Mardis E R, Gordon J I. An obesity-associated gut microbiome with increased capacity for energy harvest. Nature, 2006, 444(7122): 1027-1131.
 
-####10- Ma, J., Prince, A., & Aagaard, K. M. (2014). Use of whole genome shotgun metagenomics: A practical guide for the microbiome-minded physician scientist. Seminars in Reproductive Medicine, 32(1), 5–13. https://doi.org/10.1055/s-0033-1361817
+#### 10- Ma, J., Prince, A., & Aagaard, K. M. (2014). Use of whole genome shotgun metagenomics: A practical guide for the microbiome-minded physician scientist. Seminars in Reproductive Medicine, 32(1), 5–13. https://doi.org/10.1055/s-0033-1361817
 
-####11- Cole, J., Konstantinidis, K. T., Farris, R. J., & Tiedje, J. M. (2010). Microbial diversity and phylogeny: Extending from rRNAs to genomes. In W.-T. Liu & J. Jansson (Eds.), Environmental molecular biology (pp. 1–20). Norwich, UK: Horizon Scientific Press.
+#### 11- Cole, J., Konstantinidis, K. T., Farris, R. J., & Tiedje, J. M. (2010). Microbial diversity and phylogeny: Extending from rRNAs to genomes. In W.-T. Liu & J. Jansson (Eds.), Environmental molecular biology (pp. 1–20). Norwich, UK: Horizon Scientific Press.
 
-####12- Konstantinidis, K. T., & Tiedje, J. M. (2007). Prokaryotic taxonomy and phylogeny in the genomic era: Advancements and challenges ahead. Current Opinion in Microbiology, 10(5), 504–509. http://dx.doi.org/10.1016/j.mib.2007.08.006, S1369-5274(07)00120-8 [pii].
+#### 12- Konstantinidis, K. T., & Tiedje, J. M. (2007). Prokaryotic taxonomy and phylogeny in the genomic era: Advancements and challenges ahead. Current Opinion in Microbiology, 10(5), 504–509. http://dx.doi.org/10.1016/j.mib.2007.08.006, S1369-5274(07)00120-8 [pii].
 
-####13- Mande, S. S., Mohammed, M. H., & Ghosh, T. S. (2012). Classification of metagenomic sequences: Methods and challenges [Review]. Briefings in Bioinformatics, 13(6), 669–681. http://dx.doi.org/10.1093/bib/bbs054.
+#### 13- Mande, S. S., Mohammed, M. H., & Ghosh, T. S. (2012). Classification of metagenomic sequences: Methods and challenges [Review]. Briefings in Bioinformatics, 13(6), 669–681. http://dx.doi.org/10.1093/bib/bbs054.
 
-####14- Hunter, C. I., Mitchell, A., Jones, P., McAnulla, C., Pesseat, S., Scheremetjew, M., & Hunter, S. (2012). Metagenomic analysis: the challenge of the data bonanza. Briefings in Bioinformatics, 13(6), 743–746. https://doi.org/10.1093/bib/bbs020
+#### 14- Hunter, C. I., Mitchell, A., Jones, P., McAnulla, C., Pesseat, S., Scheremetjew, M., & Hunter, S. (2012). Metagenomic analysis: the challenge of the data bonanza. Briefings in Bioinformatics, 13(6), 743–746. https://doi.org/10.1093/bib/bbs020
 
-####15- Lane, D. J., Pace, B., Olsen, G. J., Stahlt, D. A., Sogin, M. L., & Pace, N. R. (1985). Rapid determination of 16S ribosomal RNA sequences for phylogenetic analyses (reverse transcriptase/dideoxynudeotide). Evolution, 82(October), 6955–6959.
+#### 15- Lane, D. J., Pace, B., Olsen, G. J., Stahlt, D. A., Sogin, M. L., & Pace, N. R. (1985). Rapid determination of 16S ribosomal RNA sequences for phylogenetic analyses (reverse transcriptase/dideoxynudeotide). Evolution, 82(October), 6955–6959.
 
-####16- Human Microbiome Jumpstart Reference Strains Consortium, et al. A catalog of reference genomes from the human microbiome. Science 2010;328:994–9.
+#### 16- Human Microbiome Jumpstart Reference Strains Consortium, et al. A catalog of reference genomes from the human microbiome. Science 2010;328:994–9.
 
-####17- O’Leary NA, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res 2016;44:D733–45.
+#### 17- O’Leary NA, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res 2016;44:D733–45.
 
-####18- Supratim Mukherjee, Dimitri Stamatis, Jon Bertsch, Galina Ovchinnikova, Hema Y Katta, Alejandro Mojica, I-Min A Chen, Nikos C Kyrpides, TBK Reddy, Genomes OnLine database (GOLD) v.7: updates and new features, Nucleic Acids Research, Volume 47, Issue D1, 08 January 2019, Pages D649–D659, https://doi.org/10.1093/nar/gky977
+#### 18- Supratim Mukherjee, Dimitri Stamatis, Jon Bertsch, Galina Ovchinnikova, Hema Y Katta, Alejandro Mojica, I-Min A Chen, Nikos C Kyrpides, TBK Reddy, Genomes OnLine database (GOLD) v.7: updates and new features, Nucleic Acids Research, Volume 47, Issue D1, 08 January 2019, Pages D649–D659, https://doi.org/10.1093/nar/gky977
 
-####19- Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000;28(1):27–30. doi:10.1093/nar/28.1.27
+#### 19- Kanehisa M, Goto S. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000;28(1):27–30. doi:10.1093/nar/28.1.27
