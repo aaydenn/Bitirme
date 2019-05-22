@@ -1,17 +1,12 @@
----
-title: "Taxonomic Classification of Shotgun Metagenomic Data"
-author: "Atakan Ayden"
-date: "March 2, 2019"
-output: html_document
----
+# Taxonomic Classification of Shotgun Metagenomic Data
+# Author: Atakan Ayden
+# Date: March 2, 2019
 
 # Preface
 
-I thank him for his great help and encouragement.
+I thank Andrés Aravena for his great help and encouragement.
 
 # Contents
-+ List of Figures
-+ List of Tables 
 + Summary
 + Özet 
 + 1. Metagenomics
@@ -25,7 +20,7 @@ I thank him for his great help and encouragement.
         + 2.2.1. Sequence Mapping 
         + 2.2.2. Binning Based On Nucleotide Composition 
         + 2.2.3. Metabarcoding 
-    + 2.3. Selecting Classifiers 
+    + 2.4. Selecting Classifiers 
 + 3. Taxonomic Classification with Kraken
     + 3.1. Simulating Data 
     + 3.2. Prosseccing Of Datasets 
@@ -35,8 +30,6 @@ I thank him for his great help and encouragement.
 + References
 + CV 
 
-# List of Figures
-# List of Tables
 # Summary
 
 # Özet
@@ -44,64 +37,64 @@ I thank him for his great help and encouragement.
 # 1. Metagenomics
 Metagenomics is the study of complex and diverse communities of microbial populations without the need of isolation. The term was first to put in a view of exploring uculturable soil microorganisms in 1998 [1]. Approach of metagenomics make a dissimilar attempt from classical culture-dependent microbial studies attempt to assign properties such as metabolic activities and interactions of the entire community [2]. Metagenomics generally incorporate extraction of nucleic and amino acids from enviromental samples, sequencing the extract and multiple following analysis of output data with springing bioinformatics tools. This broad possibility of options faciliates studies, besides complicates the selection of the right tool for desired metagenomics analysis. Theoretically, metagenomics can unveil almost all properties of large group of microorganisms that substracted from soil and aqua enviroments to human gut microbiota. Theoretically, metagenomics can unveil almost all properties of large group of microorganisms that cannot isolated in laboratory [7]. 
 
-## Use of Metagenomics
-+Microbial ecology 
-+Industry
-+Disease diagnosis
-
-## NGS in Metagenomics
+## 1.2. NGS in Metagenomics
 Rapid development of Next-Generation Sequencing (NGS) revolutionized metagenomics projects. 454 pyrosequencer was the first widely used sequncing technology. Although it was used in many studies in the early years, datasets also can be found generated via this technology. Great coverage produced by Illumina and its low cost per Mb have made Illumina largely appealing high throuput technology in metagenomics studies at present [3]. Long-read sequencing technologies can allow for precise taxonomic classification and funtional annotation, but the cost of the technologies, high error rates and the excessive need of input DNA requirements restrict their use.
 
-## Problems in Microbial Studies
+## 1.3. Problems in Microbial Studies
 For examining the microbial organisms, pure-culture technics were the gold standart for laboratory experiments. Single line of the organism ,independent from their neighborhood, is the only desired thing to be grown on dishes. Altough many microbial organisms coexist in complex communities in which they interact in complex ways [9]. Culture dependant methods are inadequate in revealing these complex interactions by growing only one constituent of community.
 Eventual intent of microbial genomics would sequence all species if they were culturable in laboratory conditions. But only few species among the microbial organisms are suitable for culturing [8] and few have sequence of complete genome. It appears to be that about one percent of bacteria solely can be cultured in laboratory. The growth of the bacteria is due to the fact that they are effective in adapting to the laboratory conditions rather than the impact on the community.
 
 # 2. Assigning IDs To Metagenome
 One important task of metagenomics studies is that determine taxonomic composition of all organisms in enviromental sample as it is valuable to find their disttribution in community [10]. The questions "Who is there?" and "What are they doing?" are connected as inhabitants of the community equally take part in ecosystem functions. Therefore, it provides great knowledge about composition of the community and give an outline of functions and interactions of the community.
 
-##2.1. Problems In Identifying The Taxonomic Identity
+## 2.1. Problems In Identifying The Taxonomic Identity
 Genome sequences that we have today is far from covering all living organisms [11], so that assigning sequences that encountered first time may skipped over due to lack of complete genome sequences. Likewise, ranks in microbial organisms are not approved generally, the degree of a new taxon that appears unlike the known place, thus, is diffucult to decide [12]. Lastly, The horizontal gene transfer between microbial organisms which notable in prokaryotic world, discrepancies between the sequence phylogeny and the organism phylogeny [13], leading to load additional analyses.
 
-##Importance Of Assessing Taxonomy
+## 2.3. Importance Of Assessing Taxonomy
 
 Results of this analyses is crucial because certain phylogenetic groupings can be associated with important functions. The diversity of a microbial community is considered to be an indication of the system's durability such as the ability to maintain its functioning when conditions change [14].
 
-##Assessing Taxonomic Composition 
+## 2.2. Assessing Taxonomic Composition 
 Generally three aproaches of taxonomic classification or alias taxonomic binning can be included in groups: mapping of sequences to a database of reference genomes, binning of sequences based on their composition of nucleotide k-mers and classification of reads deriving from certain barcoding regions, particularly the small subunit (SSU) rRNA genes [15].
 
-###Sequence Mapping
+### 2.2.1 Sequence Mapping
 *Relatively simple task of mapping reads or contigs to genome is that all reads from metagenome are coupled to a list of reference genomes such as found in NCBI Refseq [16], GOLD [18], KEGG [19] or Human Microbiome Project [17] databases, utilizing sequence similarity. Tools like BWA [8], Bowtie2 [9] or Diamond [] are used to map, only allowing slight range of dissimilarity.*
 
 
 
-###Binning Based On Nucleotide Composition 
-###Metabarcoding 
-##Selecting Classifiers 
-#3. Taxonomic Classification with Kraken
+### 2.2.2 Binning Based On Nucleotide Composition
+
+### 2.2.3 Metabarcoding
+
+## 2.4. Selecting Classifiers 
+
+# 3. Taxonomic Classification with Kraken
 
 Kraken [5] provides fast identification of all reads in sample to the database. It achieve this by matching exact k-mers instead of alignment of reads that requires lot more computational power.  
 
-###Simulating Data
+### 3.1. Simulating Data
 
 Simulating metagenomic data is utilized for testing new tools and developing new methods. The realistic metagenomic reads that displayed in this paper were generated by InSilicoSeq [4]. InSilicoSeq is a software that uses multiple genomes to generate real-like Illumina reads. We downloaded Genomes from Ncbi Genbank.
 
 
 
-### Prosseccing Of Datasets
+### 3.2. Prosseccing Of Datasets
 
-### Results And Disscussion
+![flowchart](https://raw.githubusercontent.com/aaydenn/Bitirme/master/Untitled%20Diagram-Page-2.png)
+
+### 3.3. Results And Disscussion
 
 
 
 
 
-#Supplementary
-##installing genomes
+# Supplementary
+## installing genomes
 ```{bash eval=FALSE}
 #git clone https://github.com/mw55309/Kraken_db_install_scripts.git
 perl $(download_bacteria.pl, download_archaea.pl, download_fungi.pl, download_protozoa.pl, download_viral.pl)
 ```
-##test and train datasets
+## test and train datasets
 ```{r, eval=FALSE}
 library(readr)
 
@@ -155,14 +148,14 @@ test_fungi     <- get_files_domain("fungi", 5, fungi)
 test_protozoa  <- get_files_domain("protozoa", 1, protozoa)
 test_viral     <- get_files_domain("viral", 3000, viral)
 ```
-##simulate illumina reads
+## simulate illumina reads
 ```{bash, eval=FALSE}
 #install
 sudo -H pip3 install insilicoseq
 #simulation
 awk '{gsub(" ","_"); print "/home/db/Kraken/seq/"$0}' /home/db/Kraken/db/test_fname.txt | xargs iss generate --model miseq --output miseq --abundance uniform --genomes
 ```
-##make database
+## make database
 ```{bash, eval=FALSE}
 #download taxonomy
 kraken-build --download-taxonomy --db k15min7
@@ -171,7 +164,7 @@ for i in $(cat train_fname.txt); do kraken-build --add-to-library /home/db/Krake
 #build database
 kraken-build --build --db k15min7
 ```
-##classification
+## classification
 ```{bash, eval=FALSE}
 #run kraken
 kraken --db k15min7 --threads 22 --output output.kraken --fastq-input --paired /home/db/Metagenomics/InSilicoSeq/2019-04-17/miseq_R*
@@ -180,7 +173,7 @@ kraken-report --db k15min7 output.kraken > output.kraken.report
 #put labels
 kraken-translate --db k15min7 output.kraken > output.kraken.labels
 ```
-##analysis
+## analysis
 ```{python, eval=FALSE, python.reticulate=FALSE}
 #code for true-false table
 from ete3 import NCBITaxa
@@ -219,7 +212,7 @@ for line in sys.stdin:
   except:
     pass
 ```
-###plot1
+### plot1
 ```{r, eval=FALSE}
 #libraries
 library(ggplot2)
